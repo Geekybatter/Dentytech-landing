@@ -1,0 +1,148 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    width:100%;
+    height: 100%;
+    background-color: white;
+}
+#nav{
+    width:100%;
+    height:13%;
+    background-color: white;
+    padding: 24px 35px 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#a{
+    display: flex;
+    align-items: center;
+}
+#a h3{
+    font-size: 22px;
+    font-weight: 400;
+    border: 1.5px black solid;
+    padding:6px 13px;
+    border-radius:50px;
+}
+#a i{
+    font-size:22px;
+    border:1.5px black solid;
+    padding: 7px 7px;
+    border-radius: 50%;
+}
+#b{
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+#b h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 11px;
+}
+#b i{
+    font-size: 21px;
+    
+    border-radius: 50%;
+    padding: 6px 6px;
+    background-color: orangered;
+    color: white;
+}
+#c{
+    display: flex;
+    align-items: center;
+    
+}
+#ac {
+    font-size: 22px;
+    font-weight: 400;
+    border: 1.5px black solid;
+    border-radius: 50px;
+    padding:6px 13px;
+    margin-right: 5px;
+}
+#ab{
+    background-color: orangered;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    
+    border-radius: 50px;
+    padding:6px 13px;
+    margin-right: 5px;
+}
+#advantage{
+    width:100%;
+    height:76%;
+    background-color: white;
+    position: relative;
+
+}
+#advantage h1{
+    font-size: 150px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+}
+img{
+    width:350px;
+    height: 450px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-radius: 28px;
+}
+#img1{
+     transform: translate(-50%,-50%)rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%)rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%)rotate(-10deg);
+}
+#footer{
+    width:100%;
+    height:11%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#y h6{
+    padding-left: 35px;
+    padding-top: 35px;
+    font-size: 18.5px;
+    font-weight: 400;
+    
+}
+#z{
+    padding-top: 8px;
+    padding-right: 35px;
+
+}
+#z i{
+    font-size: 24px;
+    margin-left: 15px;
+
+
+}
+#z h6{
+    font-size: 18.5px;
+    margin-top:8%;
+    font-weight: 400;
+}
